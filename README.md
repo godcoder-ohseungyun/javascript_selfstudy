@@ -609,8 +609,11 @@ func();//window생성
 func.apply(o);//o생성
 func.apply(p);//p생성
 ~~~ 
+
 ## 상속
+
 + c++ class 상속과 비슷한 맥락 하지만 자녀class를 만들기본단 prototype이라는 명령어를 이용한다.
+
 ~~~
 function Person(name){
 this.name = name;
@@ -623,9 +626,11 @@ return 'My name is '+this.name;
 
 var p1 = new Person('egoing');//생성자로 빈객체 생성
 document.write(p1.introduce()+"<br />");//prototype의 함수 사용가능(상속)
-~~~ 
+~~~
+
 **두함수의 상속 관계**
-~~~ 
+
+~~~
 function Person(name){
 this.name = name;
 }
@@ -644,7 +649,8 @@ var p1 = new Programmer('egoing');//생성자 빈객체 생성
 document.write(p1.introduce()+"<br />");//introduce  사용가능 상속했기 때문에
 ~~~ 
 **예제 2**
-~~~ 
+
+~~~
 function Person(name){
 this.name = name;
 }
@@ -662,7 +668,7 @@ return "hello world";
 var p1 = new Programmer('egoing');
 document.write(p1.introduce()+"<br />");
 document.write(p1.coding()+"<br />");
-~~~  
+~~~
 
  
 
