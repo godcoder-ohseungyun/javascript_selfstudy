@@ -62,7 +62,8 @@ alert(1==2) //false
 alert(1==1) //true
 alert("one"=="two") //false 
 alert("one"=="one") //true
-===
+
+
 **일치 연산자로 === 좌항과 우항이 '정확'하게 같을 때 true 다르면 false가 된다. 여기서 정확하다는 말의 의미에 집중하자. 아래 예를보자.**
 alert(1=='1'); //true
 alert(1==='1'); //false
@@ -199,7 +200,8 @@ li.reverse();
 alert(li);
 
 ~~~ 
-# 1 객체(class)
+# 1
+# 객체(class)
 **기본적으로 c++ class와 같은 느낌**
 ~~~ 
 var grades = {'egoing': 10, 'k8805': 6, 'sorialgi': 80};
@@ -282,7 +284,8 @@ alert(welcome());
 
 + 개인적인 견해로 편리하고 유용한 UI를 제공하기위해 섬세한 API가 필요하다.
 
-# 2 함수(섬세)
+# 2
+# 함수(섬세)
 
 **함수밖 선언은 전역변수 함수안 선언은 지역변수**
 ~~~ 
@@ -526,8 +529,8 @@ alert(sum.apply(o1)) // 6
 alert(sum.apply(o2)) // 185
 ~~~ 
 
-
-# 3 객체지향(자바스크립트ver)
+# 3 
+# 객체지향(자바스크립트ver)
 **선언**
 + c++ class와 같은 형식
 ~~~  
