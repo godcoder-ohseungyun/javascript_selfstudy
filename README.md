@@ -569,8 +569,11 @@ var p2 = new Person('leezche');//동적할댱+생성자2
 document.write(p2.introduce());
 
 ~~~ 
+
 **생성자와 this의 관계**
+
 + 그 메소드가 소속된 객체를 의미한다. 함수일땐 전역객체windows 생성객체에 소속되었을땐 그 객채
+
 ~~~ 
 var funcThis = null; 
 function Func(){
@@ -587,9 +590,11 @@ if(funcThis === o2){
 document.write('o2 <br />');//o2출력
 }
 생성자는 빈 객체를 만들기 때문에 this가 객체인 o2를 가리키게 된다.
+~~~ 
 
 **생성자 없이 this 제어**
-~~~ 
+
+~~~
 var o = {}
 var p = {}
 function func(){
