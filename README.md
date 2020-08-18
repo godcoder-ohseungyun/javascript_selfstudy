@@ -675,6 +675,18 @@ document.write(p1.introduce()+"<br />");
 document.write(p1.coding()+"<br />");
 ~~~
 
- 
+** prototype**
++ 상속을 위해 포함하는 명령어
+~~~ 
+function Ultra(){}
+Ultra.prototype.ultraProp = true;
+function Super(){}
+Super.prototype = new Ultra();
+function Sub(){}
+Sub.prototype = new Super();
+var o = new Sub();
+console.log(o.ultraProp);
+~~~
+
 
 
